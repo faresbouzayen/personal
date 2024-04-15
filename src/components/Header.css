@@ -1,0 +1,36 @@
+/* Header.css */
+
+.header {
+    justify-content: space-between; /* Changed to space-between for better alignment */
+    align-items: center;
+    padding: 1rem;
+    color: white;
+}
+
+.logo img { 
+    max-width: 100%;
+    width: 39px;
+    vertical-align: 22px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap; /* Added flex-wrap to allow nav links to wrap to a new line if needed */
+    justify-content: space-around; /* Changed to flex-end to align nav links to the right */
+    gap: 1rem; /* Added gap between nav links */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(15, 98, 73);
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, border-radius 0.3s; /* Added transition for smoother hover effect */
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}

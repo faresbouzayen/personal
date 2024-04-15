@@ -1,0 +1,57 @@
+/* Projects.css */
+
+/* Base styles */
+.Projects-container {
+    padding: 12px;
+  border-radius: 38px;
+  background-color: #ececec;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.Projects-container h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.Projects-container .loading {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: #888;
+}
+
+.Projects-container .projects-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.Projects-container .projects-list li {
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #ffffffdb;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Projects-container .projects-list li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Projects-container .projects-list li a {
+    color: #51ae2f;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.Projects-container .projects-list li a:hover {
+    color: #39b95d;
+    text-decoration: underline;
+}

@@ -1,0 +1,83 @@
+.Profile-container {
+    width: 41%;
+  margin: 51px 32px auto;
+  padding: 16px;
+  border-radius: 97px;
+  background-color: #63b25c0d;
+  box-shadow: 2px -1px 10px rgb(221, 216, 216);
+  transition: transform 0.3s, box-shadow 4.3s;
+}
+
+.Profile-container:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Profile-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.Profile-container>h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.Profile-container>ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Profile-container>ul>li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.Profile-container>ul>li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.Profile-container>ul>li>span {
+    font-weight: bold;
+    color: #666;
+    margin-right: 10px;
+}
+
+.Link {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .Profile-container {
+        width: 80%;
+    }
+
+    .Profile-avatar {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .Profile-container>h2 {
+        font-size: 20px;
+    }
+}
